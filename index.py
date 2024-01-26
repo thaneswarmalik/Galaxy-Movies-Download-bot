@@ -9,7 +9,7 @@ from movies_scraper import search_movies, get_movie
 
 
 TOKEN = os.getenv("TOKEN")
-URL = os.getenv("URL")
+URL = os.getenv("https://movies-download-bot.onrender.com")
 bot = Bot(TOKEN)
 
 
